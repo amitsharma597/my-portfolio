@@ -1,19 +1,16 @@
 import Navbar from "./components/Navbar";
+import Hero from "./sections/Hero";
 
 function App() {
   return (
     <>
       <Navbar />
-
-      <main id="home" className="container section">
-        <h1 className="section-title">
-          My <span className="accent">Portfolio</span>
-        </h1>
-
-        <p className="section-description">
-          Building something awesome. Stay tuned!
-        </p>
+      <main>
+        <Hero />
       </main>
+      <footer className="site-footer">
+        <p>© {new Date().getFullYear()} Amit Sharma. All rights reserved.</p>
+      </footer>
     </>
   );
 }
