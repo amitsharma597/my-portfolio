@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./sections/Hero";
 import About from "./sections/About";
 import Skills from "./sections/Skills";
+import Project from "./sections/Project";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Hero />
         <About />
         <Skills />
+        <Project />
       </main>
 
       <footer className="site-footer">
