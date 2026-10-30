@@ -42,6 +42,10 @@ function Hero() {
 
   return (
     <section id="home" className="hero">
+      <div className="hero-visual" aria-hidden="true">
+        <img src="/public/developer.png" alt="" className="hero-image" />
+      </div>
+
       <div className="hero-container">
         <div className="hero-content">
           <p className="hero-label">
@@ -78,7 +82,7 @@ function Hero() {
 
           <div className="hero-socials">
             <a
-              href="https://github.com/YOUR-USERNAME"
+              href="https://github.com/amitsharma597"
               target="_blank"
               rel="noreferrer"
               aria-label="GitHub"
@@ -94,14 +98,6 @@ function Hero() {
             >
               LinkedIn ↗
             </a>
-          </div>
-        </div>
-
-        <div className="hero-visual" aria-hidden="true">
-          <div className="particle-glow"></div>
-
-          <div className="particle-artwork">
-            <img src="/blue-particles.png" alt="" className="particle-image" />
           </div>
         </div>
       </div>
