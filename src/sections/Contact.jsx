@@ -43,7 +43,7 @@ function Contact() {
             </a>
 
             <a
-              href="https://www.linkedin.com/"
+              href="https://www.linkedin.com/in/amit-sharma-157572320/"
               target="_blank"
               rel="noreferrer"
               className="contact-item"

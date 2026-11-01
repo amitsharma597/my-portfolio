@@ -43,7 +43,7 @@ function Hero() {
   return (
     <section id="home" className="hero">
       <div className="hero-visual" aria-hidden="true">
-        <img src="/public/developer.png" alt="" className="hero-image" />
+        <img src="/developer.png" alt="" className="hero-image" />
       </div>
 
       <div className="hero-container">
